@@ -73,8 +73,8 @@ Two ROS2 nodes communicate via a publisher/subscriber pattern inside a Docker co
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/LuigiMaggipinto23/ROS2-People-Detection-and-Line-Crossing-Pipeline.git
+cd ROS2-People-Detection-and-Line-Crossing-Pipeline
 ```
 
 ### 2. Start the container
