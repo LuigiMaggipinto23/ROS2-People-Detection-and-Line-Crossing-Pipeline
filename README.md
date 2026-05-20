@@ -1,10 +1,10 @@
-# 🎯 ROS2 People Detection & Line Crossing Pipeline
+# ROS2 People Detection & Line Crossing Pipeline
 
 A containerized computer vision pipeline built with **ROS2**, **YOLOv8**, and **Docker** that performs real-time people detection, multi-object tracking with persistent IDs, and event detection when tracked individuals cross a configurable vertical boundary line.
 
 ---
 
-## 📽️ Demo
+## Demo
 
 | Before crossing | After crossing |
 |:-:|:-:|
@@ -18,7 +18,7 @@ A containerized computer vision pipeline built with **ROS2**, **YOLOv8**, and **
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 Two ROS2 nodes communicate via a publisher/subscriber pattern inside a Docker container:
 
@@ -37,7 +37,7 @@ Two ROS2 nodes communicate via a publisher/subscriber pattern inside a Docker co
                                                              + frame saved to /output
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -63,7 +63,7 @@ Two ROS2 nodes communicate via a publisher/subscriber pattern inside a Docker co
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -141,7 +141,7 @@ Parameters are currently hardcoded in the source files. Key values to adjust:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### Node 1 — `camera_publisher`
 
@@ -167,7 +167,7 @@ Subscribes to `/camera/image_raw` and processes each frame through 4 stages:
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---|---|
